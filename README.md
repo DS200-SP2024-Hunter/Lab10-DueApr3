@@ -41,10 +41,10 @@ Notice that we have used `linear` in place of `fitted` above.  This is a semanti
 
 10. The line you created in Step 9 gives us what is called a "hard classifier":  All points on one side are classified as CKD, and all points on the other are classified as non-CKD.  However, logistic regression actually provides more than a hard classifier; it gives each `(Hem, WBC)` point a probability of CKD according to the formula in Step 8.  As the final step in your lab this week, calculate the probability associated with the point `(Hem=12, WBC=7500)`.
  
-11. If you're curious where the expression `np.log(1 + np.exp(fitted)) - y * fitted` in Step 6 comes from, check out this [short writeup](https://github.com/DS200-SP2022-Hunter/Week11-Mar29/blob/main/LogisticRegression.pdf).
+11. If you're curious where the expression `np.log(1 + np.exp(fitted)) - y * fitted` in Step 6 comes from, check out this [short writeup](https://github.com/DS200-SP2024-Hunter/Lab10-DueApr3/blob/main/LogisticRegression.pdf).
   
 12.  Finally, make sure that your Jupyter notebook only includes code and text that is relevant to this assignment.  For instance, if you have been completing this assignment by editing the original code from Section 13.2, make sure to delete the material that isn't relevant before turning in your work.
 
-When you've completed this, you should select "Print" from the File menu, then save to pdf using this option.  The pdf file that you create in this way is the file that you should upload to Canvas for grading.  If you have trouble with this step, try selecting the "A3" paper size from the advanced options and making sure that your colab is zoomed out all the way (using ctrl-minus or command-minus).  As an alternative, you can create the pdf within your google drive space and then download it from there.  Here's a [Jupyter noteboook](https://github.com/DS200-SP2022-Hunter/Week11-Mar29/blob/main/convert_pdf.ipynb) shared by Xinyu Dou that creates the pdf within the google drive space (you may need to modify it depending on your directory names and the name of your lab file).
+When you've completed this, you should select "Print" from the File menu, then save to pdf using this option.  The pdf file that you create in this way is the file that you should upload to Canvas for grading.  If you have trouble with this step, try selecting the "A3" paper size from the advanced options and making sure that your colab is zoomed out all the way (using ctrl-minus or command-minus).  
 
 
