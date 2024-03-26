@@ -45,6 +45,8 @@ Notice that we have used `linear` in place of `fitted` above.  This is a semanti
   
 12.  Finally, make sure that your Jupyter notebook only includes code and text that is relevant to this assignment.  For instance, if you have been completing this assignment by editing the original code from Section 13.2, make sure to delete the material that isn't relevant before turning in your work.
 
+**New: Here is a [short jupyter notebook](https://github.com/DS200-SP2024-Hunter/Lab09-DueMar27/blob/main/convert_pdf.ipynb) that shows how you can create a pdf document from a .ipynb file directly in your google drive space. Then you can download it to turn in.**
+
 When you've completed this, you should select "Print" from the File menu, then save to pdf using this option.  The pdf file that you create in this way is the file that you should upload to Canvas for grading.  If you have trouble with this step, try selecting the "A3" paper size from the advanced options and making sure that your colab is zoomed out all the way (using ctrl-minus or command-minus).  
 
 
